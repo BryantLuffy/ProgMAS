@@ -14,13 +14,15 @@ We demonstrate that ProgMAS outperforms some traditional machine learning method
 ProgCAE is implemented in Python 3.8, which also requires the installation of keras, lifelines, numpy, pandas, scikit-learn, mrmr-selection,tensorflow and other packages. Their specific versions are as follows.
 
 ### packages
-keras 2.11.0
-lifelines 0.27.7
-numpy 1.22.3
-pandas 1.5.3
-scikit-learn 1.2.1
-mrmr-selection 0.2.6
-tensorflow 2.11.0
+
+`keras`         `2.11.0`<br>
+`lifelines`     `0.27.7`<br>
+`numpy`         `1.22.3`<br>
+`pandas`        `1.5.3`<br>
+`scikit-learn`  `1.2.1`<br>
+`tensorflow`    `2.11.0`<br> 
+`mrmr-selection`    `0.2.6`<br> 
+
 
 ## Usage
 The input to ProgMAS consists of multi-omics dictionary and survival information, where the survival information is in csv format, and various thresholds. For a particular omics matrix, its rows should represent samples (patients), its columns should represent features (genes), and the first column should be the id of each patient. The survival information consists of the patient ID, status, and time. Outputs include indicator values for categorical outcomes, p-values for rank tests and biomarkers that are important under different omics. 
