@@ -46,7 +46,8 @@ biomarker_results = progmas.biomarker_idt(omics_dict, survival_data_processed)
 ```
 
 As an example of BLCA cancer multi-omics data, the specific use of ProgMAS can be found in the tutorial.ipynb file
-#### Specific operational details are as shown in tutorial.ipynb.
+
+Specific operational details are as shown in tutorial.ipynb.
 
 ### Data Acquisition
 #### To replicate our study, you can download multi-omics datasets for various types of cancer from the links provided below.
